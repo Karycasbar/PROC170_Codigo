@@ -1,0 +1,17 @@
+  <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-analytics.js"></script>
+
+  <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyAYIZlKqB3RBKGEhK_fhVl81JXhUQEU8ss",
+      authDomain: "prueba-menu-ar.firebaseapp.com",
+      projectId: "prueba-menu-ar",
+      storageBucket: "prueba-menu-ar.appspot.com",
+      messagingSenderId: "785556345958",
+      appId: "1:785556345958:web:ee428a259036c5ed6389a7"
+    };
+    // Inicializar Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script> 
